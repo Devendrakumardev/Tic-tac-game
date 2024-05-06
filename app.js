@@ -72,7 +72,7 @@ const checkwinner = () => {
 
         if (pos1Val != "" && pos2Val != "" && pos3Val != "") {
             if (pos1Val === pos2Val && pos2Val === pos3Val) {
-                console.log("winner", pos1Val)
+               
                 showwinner(pos1Val);
             }
         }
@@ -80,4 +80,4 @@ const checkwinner = () => {
     }
 };
 newGameBtn.addEventListener("click",resetGame);
-resetBtn .addEventListener("click" , resetGame);
+resetBtn.addEventListener("click", resetGame);
